@@ -1,0 +1,25 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  background: #dbb2e7;
+}
+
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: rgb(188, 101, 206);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
